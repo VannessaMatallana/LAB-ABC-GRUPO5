@@ -13,240 +13,257 @@
 
 <body>
 
-    <div class="grid-cuadricula">
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">🎈</span> ABC<span>Challenge</span>
+        </div>
+        <div class="counter-container">
+            <span class="counter-label">Letras descubiertas:</span>
+            <span id="contador">0</span>/26
+        </div>
+    </header>
 
-        <!-- Fila 1 -->
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>A</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_1' alt='1'>
-                <h3>Item 1</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>B</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_2' alt='2'>
-                <h3>Item 2</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>C</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_3' alt='3'>
-                <h3>Item 3</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>D</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_4' alt='4'>
-                <h3>Item 4</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>5</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_5' alt='5'>
-                <h3>Item 5</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>6</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_6' alt='6'>
-                <h3>Item 6</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>7</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_7' alt='7'>
-                <h3>Item 7</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>8</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_8' alt='8'>
-                <h3>Item 8</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>9</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_9' alt='9'>
-                <h3>Item 9</h3>
-            </div>
-        </div>
-
-        <!-- Fila 2 -->
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>10</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_10' alt='10'>
-                <h3>Item 10</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>11</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_11' alt='11'>
-                <h3>Item 11</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>12</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_12' alt='12'>
-                <h3>Item 12</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>13</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_13' alt='13'>
-                <h3>Item 13</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>14</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_14' alt='14'>
-                <h3>Item 14</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>15</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_15' alt='15'>
-                <h3>Item 15</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>16</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_16' alt='16'>
-                <h3>Item 16</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>17</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_17' alt='17'>
-                <h3>Item 17</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>18</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_18' alt='18'>
-                <h3>Item 18</h3>
-            </div>
-        </div>
-
-        <!-- Fila 3 -->
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>19</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_19' alt='19'>
-                <h3>Item 19</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>20</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_20' alt='20'>
-                <h3>Item 20</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>21</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_21' alt='21'>
-                <h3>Item 21</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>22</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_22' alt='22'>
-                <h3>Item 22</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>23</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_23' alt='23'>
-                <h3>Item 23</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>24</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_24' alt='24'>
-                <h3>Item 24</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>25</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_25' alt='25'>
-                <h3>Item 25</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>26</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_26' alt='26'>
-                <h3>Item 26</h3>
-            </div>
-        </div>
-        <div class='card' data-tipo='vocal' onclick='voltear(this)'>
-            <div class='card-frente'>
-                <h1>27</h1>
-            </div>
-            <div class='card-dorso'><img src='URL_27' alt='27'>
-                <h3>Item 27</h3>
-            </div>
-        </div>
-
-    </div>
-
-
+    <section class="filter-section">
+        <button onclick="filtrar('todas')" class="filter-btn active" id="btn-todas">🌟 Todas</button>
+        <button onclick="filtrar('vocales')" class="filter-btn" id="btn-vocales">✨ Vocales</button>
     </section>
-    
-    <footer class="team-section">
-        <h2> Desarrollado por grupo 5 </h2>
-        <p>Vanessa Matallana | Michael Espinal | Santiago castrillon | Sebastian Cruz </p>
-    </footer>
 
-</body>
+    <body>
+
+        <div class="grid-cuadricula">
+
+            <!-- Fila 1 -->
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>A</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_1' alt='1'>
+                    <h3>Item 1</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>B</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_2' alt='2'>
+                    <h3>Item 2</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>C</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_3' alt='3'>
+                    <h3>Item 3</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>D</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_4' alt='4'>
+                    <h3>Item 4</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>5</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_5' alt='5'>
+                    <h3>Item 5</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>6</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_6' alt='6'>
+                    <h3>Item 6</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>7</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_7' alt='7'>
+                    <h3>Item 7</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>8</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_8' alt='8'>
+                    <h3>Item 8</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>9</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_9' alt='9'>
+                    <h3>Item 9</h3>
+                </div>
+            </div>
+
+            <!-- Fila 2 -->
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>10</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_10' alt='10'>
+                    <h3>Item 10</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>11</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_11' alt='11'>
+                    <h3>Item 11</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>12</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_12' alt='12'>
+                    <h3>Item 12</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>13</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_13' alt='13'>
+                    <h3>Item 13</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>14</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_14' alt='14'>
+                    <h3>Item 14</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>15</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_15' alt='15'>
+                    <h3>Item 15</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>16</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_16' alt='16'>
+                    <h3>Item 16</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>17</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_17' alt='17'>
+                    <h3>Item 17</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>18</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_18' alt='18'>
+                    <h3>Item 18</h3>
+                </div>
+            </div>
+
+            <!-- Fila 3 -->
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>19</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_19' alt='19'>
+                    <h3>Item 19</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>20</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_20' alt='20'>
+                    <h3>Item 20</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>21</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_21' alt='21'>
+                    <h3>Item 21</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>22</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_22' alt='22'>
+                    <h3>Item 22</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>23</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_23' alt='23'>
+                    <h3>Item 23</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>24</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_24' alt='24'>
+                    <h3>Item 24</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>25</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_25' alt='25'>
+                    <h3>Item 25</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>26</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_26' alt='26'>
+                    <h3>Item 26</h3>
+                </div>
+            </div>
+            <div class='card' data-tipo='vocal' onclick='voltear(this)'>
+                <div class='card-frente'>
+                    <h1>27</h1>
+                </div>
+                <div class='card-dorso'><img src='URL_27' alt='27'>
+                    <h3>Item 27</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+        </section>
+
+        <footer class="team-section">
+            <h2> Desarrollado por grupo 5 </h2>
+            <p>Vanessa Matallana | Michael Espinal | Santiago castrillon | Sebastian Cruz </p>
+        </footer>
+
+    </body>
 
 </html>
