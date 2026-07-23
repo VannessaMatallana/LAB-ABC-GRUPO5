@@ -112,17 +112,16 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 1rem 0 2rem;
+  padding: 1rem 1rem 2rem; 
+  flex: 1;
 }
-
 .grid-cuadricula {
   display: grid;
-  grid-template-columns: repeat(9, 100px);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(9, minmax(0, 90px)); 
   gap: 10px;
+  justify-content: center; /* Centra las columnas dentro del grid */
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 /* Tarjeta con efecto flip 3D */
