@@ -1,3 +1,55 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-cards); 
+  padding: 1rem 2rem;
+  border-bottom: 4px solid var(--letter-pink);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: var(--fuente);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--letter-white);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-icon {
+  font-size: 1.8rem;
+}
+
+.logo span:not(.logo-icon) {
+  color: var(--background);
+}
+
+.counter-container {
+  background-color: var(--background-button);
+  color: var(--letter-blue);
+  padding: 0.5rem 1.2rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.counter-label {
+  color: var(--letter-black);
+}
+
+#contador {
+  color: var(--letter-pink);
+  font-size: 1.3rem;
+}
+
+
 :root {
 --fuente: font-family: "Short Stack", cursive;
 --background: #C4E5F2;
@@ -13,8 +65,6 @@
 body{
     background-color: var(--background);
     font-family: var(--fuente);
-
-    /* para centrar cuadricula */
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -24,11 +74,8 @@ body{
 
 .grid-cuadricula {
   display: grid;
-  /* 9 columnas */
   grid-template-columns: repeat(9, 100px);
-  /* 3 filas */
   grid-template-rows: repeat(3, 1fr);
-  /* Espacio de separación entre las tarjetas */
   gap: 10px;
   width: 100%;
   max-width: 1200px;
@@ -40,3 +87,27 @@ body{
   aspect-ratio: 3 / 4; 
 }
 
+/* Footer */
+.team-section {
+  background-color: var(--background-cards); 
+  color: var(--letter-white);               
+  text-align: center;
+  padding: 2rem 1.5rem;
+  margin-top: 3rem;
+  font-family: var(--fuente);                
+  border-top: 5px solid var(--letter-pink);  
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.team-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  color: var(--letter-white);
+  letter-spacing: 0.5px;
+}
+
+.team-section p {
+  font-size: 1.05rem;
+  color: var(--background);                 
+  line-height: 1.5;
+}
