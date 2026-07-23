@@ -114,15 +114,12 @@ body {
   padding: 1rem 1rem 2rem; 
   flex: 1;
 }
-/* Después (¡Más grande y adaptable!) */
+
 .grid-cuadricula {
   display: grid;
-  /* Usamos '1fr' (una fracción) para que crezcan. 'minmax' asegura que no se rompan en pantallas muy pequeñas. */
   grid-template-columns: repeat(9, minmax(150px, 1fr));
-  /* Aumentamos el espacio entre tarjetas para que se vea más limpio */
   gap: 20px;
   justify-content: center;
-  /* Quitamos el max-width para que puedan ocupar todo el ancho de la pantalla si es necesario */
   width: 95%;
   margin: 0 auto;
 }
