@@ -1,0 +1,42 @@
+:root {
+--fuente: font-family: "Short Stack", cursive;
+--background: #C4E5F2;
+--background-cards : #05AFF2;
+--background-button: white;
+--background-button-hover: #05AFF2;
+--letter-white: white;
+--letter-black: black;
+--letter-blue: #05AFF2;
+--letter-pink: #F249B7;
+}
+
+body{
+    background-color: var(--background);
+    font-family: var(--fuente);
+
+    /* para centrar cuadricula */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-cuadricula {
+  display: grid;
+  /* 9 columnas */
+  grid-template-columns: repeat(9, 100px);
+  /* 3 filas */
+  grid-template-rows: repeat(3, 1fr);
+  /* Espacio de separación entre las tarjetas */
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  cursor: pointer;
+  aspect-ratio: 3 / 4; 
+}
+
